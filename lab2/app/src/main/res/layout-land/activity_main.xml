@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/helloworld"
+        android:textSize="40sp"
+        android:layout_centerInParent="true"
+        >
+    </TextView>
+
+    <EditText
+        android:layout_below="@+id/textViewId"
+        android:id="@+id/editTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        >
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/editTextId"
+        android:layout_below="@+id/textViewId"
+        android:text="@string/rename"
+        android:textSize="20sp"
+        >
+    </Button>
+
+
+
+
+
+
+
+</RelativeLayout>
